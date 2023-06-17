@@ -28,6 +28,14 @@
   /* Shadow */
   --shadow-primary: 0px 0px 12px rgba(28, 43, 51, 0.1);
 
+  /* Gradients */
+
+  --gradient-primary: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.7) 10%,
+    transparent
+  );
+
   /* Spacings */
   --spacing-0: 0;
   --spacing-1: 20px 0;

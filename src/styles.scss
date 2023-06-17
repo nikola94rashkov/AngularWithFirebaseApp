@@ -21,9 +21,9 @@ $techflix-warn: mat.define-palette(mat.$red-palette);
 $techflix-theme: mat.define-light-theme(
   (
     color: (
-      primary: var(--c-black),
-      accent: var(--c-white),
-      warn: var(--c-red-1)
+      primary: $techflix-primary,
+      accent: $techflix-accent,
+      warn: $techflix-warn
     )
   )
 );
@@ -35,12 +35,3 @@ $techflix-theme: mat.define-light-theme(
 
 /* You can add global styles to this file, and also import other style files */
 @import 'base';
-
-html,
-body {
-  height: 100%;
-}
-body {
-  margin: 0;
-  font-family: Roboto, 'Helvetica Neue', sans-serif;
-}
