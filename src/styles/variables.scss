@@ -1,3 +1,5 @@
+@import 'fonts';
+
 :root {
   /* Font parameters */
   --font-size-base: 62.5%;
@@ -5,10 +7,7 @@
   --line-height-base: 1.2;
 
   /* Fonts */
-  --ff-logo: 'Monomaniac One', sans-serif;
-  --ff-sans-serif: 'Roboto', 'Helvetica Neue', sans-serif;
-  --ff-serif: Georgia, 'Times New Roman', Times, serif;
-  --ff-cursive: 'Nosifer', cursive;
+  --ff-sans-serif: 'Bebas Neue', sans-serif;
 
   /* Animations duration */
   --t-duration: 0.4s;
